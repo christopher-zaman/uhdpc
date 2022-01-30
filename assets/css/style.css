@@ -418,8 +418,11 @@ h1, h2, h3, h4, h5, h6 {
 .padding-5px{
   padding:5px;
 }
-.margin-right-75{
-  margin: 0 75px 0 0;
+.margin-right-40{
+  margin: 0 40px 0 0;
+}
+.my-width-55{
+  width: 55px;
 }
 #hero .container {
   padding-top: 72px;
