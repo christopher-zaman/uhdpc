@@ -31,6 +31,8 @@
   <meta name="twitter:site" content="https://www.ultimatehealthdpc.com/">
   <meta name="twitter:image" content="https://ultimatehealthdpc.com/assets/img/membership-based-primary-health-care.png">
 
+  <meta name="robots" content="index, follow">
+
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 <!-- JSON-LD markup Google Structured Data. -->
@@ -173,7 +175,12 @@
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="Primary Care in Leesburg Florida">
+          <!--<img src="assets/img/hero-img.png" class="img-fluid animated" alt="Primary Care in Leesburg Florida">-->
+          <picture>
+            <source type="image/webp" srcset="assets/img/hero-img.webp">
+            <source type="image/png" srcset="assets/img/hero-img.png">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="Primary Care in Leesburg Florida">
+          </picture>
         </div>
       </div>
     </div>
@@ -787,7 +794,7 @@
             <meta property="og:description"
               content="Revolutionary health care practices streamline doctor visits for professionals with high deductibles" />
             <meta property="og:image" content="https://ultimatehealthdpc.com/assets/img/amanda-facetime.png" />
-            <meta property="g:video" content="https://www.youtube.com/embed/P9Jxk1imMnc" />
+            <meta property="og:video" content="https://www.youtube.com/embed/P9Jxk1imMnc" />
 
             <h3>Follow Us</h3>
             <div class="social-links mt-3">
