@@ -418,13 +418,8 @@ h1, h2, h3, h4, h5, h6 {
 .padding-5px{
   padding:5px;
 }
-.mypadding-70-rl{
-  padding: 0 70px;
-  font-size: larger;
-}
-.mypadding-30-rl{
-  padding: 0 30px;
-  font-size: larger;
+.margin-right-75{
+  margin: 0 75px 0 0;
 }
 #hero .container {
   padding-top: 72px;
