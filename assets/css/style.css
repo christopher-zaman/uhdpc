@@ -646,7 +646,11 @@ section {
   filter: none;
   transform: scale(1.1);
 }
-
+.uhdpc-gradient-border{
+  border-top: 4px solid;
+  border-image: linear-gradient(90deg,#97c73d,#97c73d,#819fd2,#5a81c4);
+  border-image-slice: 1;
+}
 .cliens {
   padding: 12px 0;
   text-align: center;
@@ -1548,7 +1552,6 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 --------------------------------------------------------------*/
 .contact .info {
   border-top: 4px solid;
-  border-bottom: 4px solid;
   border-image: linear-gradient(90deg,#97c73d,#97c73d,#819fd2,#5a81c4);
   border-image-slice: 1;
   padding: 30px;
@@ -1622,7 +1625,6 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 .contact .php-email-form {
   width: 100%;
   border-top: 4px solid;
-  border-bottom: 4px solid;
   border-image: linear-gradient(90deg,#97c73d,#97c73d,#819fd2,#5a81c4);
   border-image-slice: 1;
   padding: 30px;
