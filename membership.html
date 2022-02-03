@@ -233,7 +233,7 @@
               </div>
               <!--====================== Members Owners Form ===========================-->
               <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                <form name="submit-to-google-sheet" id="membership-applicants" method="post" role="form" class="php-email-form">
+                <form name="submit-to-google-sheet" id="membership-applicants" method="post" class="php-email-form">
                   <div class="row">
                     <div class="form-group col-md-6">
                       <label for="name">Your Name</label>
@@ -252,26 +252,22 @@
                     <label for="name">Message</label>
                     <textarea class="form-control" name="message" rows="10" required></textarea>
                   </div>
-                  <div class="my-3">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                  </div>
+                  
                   <div class="text-center"><button name="submit" type="submit">Send Message</button></div>
                 </form>
                 <script>
-                  const scriptURL = 'https://script.google.com/macros/s/AKfycbyI-3DZIQVcWG1WiBu-WN1dGGbz6VjgGfItSpJ5kTTLmgvl2Mpe/exec'
+                  const scriptURL1 = 'https://script.google.com/macros/s/AKfycbzgJgYvg4lJTiTbjld21rrv3KLzbCnYkWPaaWT2zHso60ymc_Hl/exec'
                   const form = document.forms['submit-to-google-sheet']
 
                   form.addEventListener('submit', e => {
                     e.preventDefault()
-                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    fetch(scriptURL1, { method: 'POST', body: new FormData(form) })
                       .then(response => console.log('Success!', response))
                       .catch(error => console.error('Error!', error.message))
-                    document.forms['business-applicants'].reset()
+                    document.forms['membership-applicants'].reset()
                   })
                 </script>
-                <!--====================== Business Owners Form ===========================-->
+                <!--====================== Members Owners Form ===========================-->
               </div>
         
             </div>

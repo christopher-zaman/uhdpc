@@ -10,7 +10,7 @@
   <meta name="keywords" content="Direct Primary Care in Leesburg Florida">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="favicon.ico" rel="shortcut icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -98,9 +98,6 @@
     <div class="container d-flex align-items-center">
 
       <h1 class="logo me-auto"><a href="index.html">Ultimate Health Direct Primary Care</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="ultimate health direct primary care" class="img-fluid"></a>-->
-
       <nav id="navbar" class="navbar">
         <ul>
           <li class="dropdown"><a class="nav-link scrollto" href="iv-hydration.html"><span>IV Hydration</span> <i
@@ -641,7 +638,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form name="submit-to-google-sheet" id="membership-applicants" method="post" role="form" class="php-email-form">
+            <form name="submit-to-google-sheet" id="membership-applicants" method="post" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -660,23 +657,19 @@
                 <label for="name">Message</label>
                 <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
+              
               <div class="text-center"><button name="submit" type="submit">Send Message</button></div>
             </form>            
             <script>
-              const scriptURL = 'https://script.google.com/macros/s/AKfycbyI-3DZIQVcWG1WiBu-WN1dGGbz6VjgGfItSpJ5kTTLmgvl2Mpe/exec'
+              const scriptURL1 = 'https://script.google.com/macros/s/AKfycbzgJgYvg4lJTiTbjld21rrv3KLzbCnYkWPaaWT2zHso60ymc_Hl/exec'
               const form = document.forms['submit-to-google-sheet']
 
               form.addEventListener('submit', e => {
                 e.preventDefault()
-                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                fetch(scriptURL1, { method: 'POST', body: new FormData(form) })
                   .then(response => console.log('Success!', response))
                   .catch(error => console.error('Error!', error.message))
-              document.forms['business-applicants'].reset()
+                document.forms['membership-applicants'].reset()
               })
             </script>
           </div>
