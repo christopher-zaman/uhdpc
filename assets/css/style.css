@@ -506,6 +506,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     /*height: 100vh;*/
     text-align: center;
+    background-image: url(../img/amanda-mobile.jpg);
   }
   #hero .animated {
     -webkit-animation: none;
