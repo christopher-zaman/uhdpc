@@ -536,6 +536,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 575px) {
+
+  #hero{
+    background-image: url(../img/amanda-mobile-small.jpg);
+  }
   #hero .hero-img img {
     width: 80%;
   }
