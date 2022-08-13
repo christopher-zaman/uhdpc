@@ -629,6 +629,9 @@ section {
 .w-50-percent{
   max-width: 50%;
 }
+.w-80-percent {
+  max-width: 80%;
+}
 .cliens a {
   max-width: 75%;
   transition: all 0.4s ease-in-out;
@@ -1227,7 +1230,12 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 .w-90{
   max-width:90%;
 }
-
+.border-radius-uhdpc{
+  border-radius: 10px;
+}
+.uhdpc-margin-auto{
+  margin:auto;
+}
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
