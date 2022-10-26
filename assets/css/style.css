@@ -787,7 +787,19 @@ section {
   color: #fff;
   text-decoration: none;
 }
-
+.testimonial-bg{
+  background-image: url("../img/resized-imgs/faq-bg.png");
+  background-size: contain;
+  background-color: rgba(0,0,0.0.6);
+}
+.testimonial-gradient-text{
+  background-color: red;
+    background-image: linear-gradient(90deg, #92be65, #0059b2);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
