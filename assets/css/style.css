@@ -491,15 +491,15 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started {
   font-family: "Jost", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: x-large;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 28px 11px 28px;
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px 0 0 0;
-  color: #fff;
-  background: #0f377c;
+  color: #0f377c;
+  background: #fff;
 }
 
 #hero .btn-get-started:hover {
@@ -794,7 +794,7 @@ section {
 }
 .testimonial-gradient-text{
   background-color: red;
-    background-image: linear-gradient(90deg, #92be65, #0059b2);
+    background-image: linear-gradient(90deg, #92be65, #0059b2);       
     background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;
