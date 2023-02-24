@@ -398,7 +398,7 @@
             <div class="accordion-list">
               <ul>
                 <li>
-                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> As a patient of UH, will I still need insurance? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a href="faq-page.html" data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> As a patient of UH, will I still need insurance? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                     <p>
                       Yes. We recommend that our patients select a health share plan to ensure financial help should hospitalization or
@@ -410,7 +410,7 @@
                   </div>
                 </li>
                 <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> What?! Is this for real? I get to see the provider as much as I want, for a couple of bucks a day? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a href="faq-page.html" data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> What?! Is this for real? I get to see the provider as much as I want, for a couple of bucks a day? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                     <p>
                       Yes, absolutely. We want to make healthcare accessible and as affordable as possible. We really do want you healthy.
@@ -418,7 +418,7 @@
                   </div>
                 </li>
                 <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> What sets Ultimate Health apart from other practices? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a href="faq-page.html" data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> What sets Ultimate Health apart from other practices? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                     <p>
                       We close the gap between patient and doctor. The freedom of this model encourages collaboration and personalized care
@@ -763,17 +763,17 @@
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
+                <h3>Location:</h3>
                 <p>733 North 3rd Street, Leesburg, FL 34748</p>
               </div>
               <div class="email">
                 <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
+                <h3>Email:</h3>
                 <p>ultimatehealthdpc@gmail.com</p>
               </div>
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
+                <h3>Call:</h3>
                 <p>+1 352-901-6582</p>
               </div>
               <iframe title="Ultimate Health Direct Primary Care Office Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3495.6741128360104!2d-81.87880778463354!3d28.81878388234476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e7c1ea00ccb37b%3A0x61f30c383d9291d!2sUltimate%20Health%20Direct%20Primary%20Care%2C%20LLC!5e0!3m2!1sen!2sus!4v1608665975012!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
@@ -950,9 +950,11 @@
   
     <div class="container footer-bottom clearfix">
       <div class="copyright">
-        &copy; Copyright
-        <script async>document.write(new Date().getFullYear());</script><strong><span> Ultimate Health Direct Primary Care
-            LLC</span></strong>. All Rights Reserved
+        &copy; Copyright <p id="my-date-time"></p>
+        <script>
+          document.getElementById('my-date-time').innerHTML = new Date().getFullYear() 
+          + " <strong>Ultimate Health Direct Primary Care</strong>. All Rights Reserved";
+        </script>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
