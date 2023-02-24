@@ -639,7 +639,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #37517e;
+  color: #2f4367;
 }
 
 .section-title h2::before {
@@ -994,7 +994,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #e8edf5;
+  background: #3f7f82;
   height: 10px;
 }
 
