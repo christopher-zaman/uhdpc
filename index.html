@@ -13,9 +13,9 @@
   <link href="favicon.ico" rel="shortcut icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
--->
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -204,7 +204,7 @@
             <a autoplay href="https://youtu.be/iDLTNCpPGJI" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
           <br>
-           <h5 class="text-white">Membership model for primary care services</h5>
+           <!--<h1 class="text-white">Membership model for primary care services</h1>-->
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in">
       </div>
@@ -341,8 +341,8 @@
         </div>
         <div class="row content">
           <div class="col-lg-6">
-            <a autoplay href="https://www.youtube.com/embed/WI1gtvVhmDI" class="glightbox btn-watch-video" target="_blank">
-              <img src="assets/img/youtube-thumbnail.webp" width="90%" /></a>
+            <a autoplay href="https://www.youtube.com/embed/WI1gtvVhmDI" class="glightbox btn-watch-video" aria-label="About us YouTube video" target="_blank">
+              <img src="assets/img/youtube-thumbnail.webp" width="502" alt="About us YouTube video" /></a>
             <div class="d-flex justify-content-center justify-content-lg-start">
               <a href="https://app.elationemr.com/book/UltimateHealthDPC" class="btn-get-started scrollto" target="_blank">Schedule
                 an appointment</a>
@@ -678,7 +678,7 @@
           </div>
           <div class="row">
             <div class="col-lg-4">
-              <img class="rounded-circle shadow-1-strong mb-4 lazyload"
+              <img class="rounded-circle shadow-1-strong mb-4"
                 data-src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar" style="width: 150px;" />
               <h5 class="mb-3">Felicia</h5>
               <p>
@@ -698,7 +698,7 @@
             </div>
   
             <div class="col-lg-4 d-none d-lg-block">
-              <img class="rounded-circle shadow-1-strong mb-4 lazyload"
+              <img class="rounded-circle shadow-1-strong mb-4"
                 data-src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar" style="width: 150px;" />
               <h5 class="mb-3">Shelton</h5>
               <p>
@@ -720,7 +720,7 @@
             </div>
   
             <div class="col-lg-4 d-none d-lg-block">
-              <img class="rounded-circle shadow-1-strong mb-4 lazyload"
+              <img class="rounded-circle shadow-1-strong mb-4"
                 data-src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" style="width: 150px;" />
               <h5 class="mb-3">Kate</h5>
               <p>
@@ -776,7 +776,7 @@
                 <h4>Call:</h4>
                 <p>+1 352-901-6582</p>
               </div>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3495.6741128360104!2d-81.87880778463354!3d28.81878388234476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e7c1ea00ccb37b%3A0x61f30c383d9291d!2sUltimate%20Health%20Direct%20Primary%20Care%2C%20LLC!5e0!3m2!1sen!2sus!4v1608665975012!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+              <iframe title="Ultimate Health Direct Primary Care Office Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3495.6741128360104!2d-81.87880778463354!3d28.81878388234476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e7c1ea00ccb37b%3A0x61f30c383d9291d!2sUltimate%20Health%20Direct%20Primary%20Care%2C%20LLC!5e0!3m2!1sen!2sus!4v1608665975012!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
             </div>
           </div>
 
@@ -788,16 +788,16 @@
                   <input type="text" name="name" class="form-control" id="name" required>
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
+                  <label for="email">Your Email</label>
                   <input type="email" class="form-control" name="email" id="email" required>
                 </div>
               </div>
               <div class="form-group">
-                <label for="name">Your Phone Number</label>
+                <label for="phone">Your Phone Number</label>
                 <input type="text" class="form-control" name="phone" id="subject" required>
               </div>
               <div class="form-group">
-                <label for="name">Message</label>
+                <label for="message">Message</label>
                 <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
               
@@ -906,6 +906,7 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h3>Location</h3>
             <iframe
+              title="Office Location"
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6991.348217773319!2d-81.876619!3d28.818784!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x61f30c383d9291d!2sUltimate%20Health%20Direct%20Primary%20Care%20LLC!5e0!3m2!1sen!2sus!4v1639607329640!5m2!1sen!2sus"
               width="90%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
   
@@ -937,8 +938,8 @@
             <meta property="og:video" content="https://www.youtube.com/embed/P9Jxk1imMnc" />
             <h3>Follow Us</h3>
             <div class="social-links mt-3">
-              <a href="https://www.instagram.com/ultimatehealthdpc" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/amanda-neil-msn-aprn-2b2238202" class="linkedin"><i
+              <a aria-label="Instagram Page" href="https://www.instagram.com/ultimatehealthdpc" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a aria-label="LinkedIn Page" href="https://www.linkedin.com/in/amanda-neil-msn-aprn-2b2238202" class="linkedin"><i
                   class="bx bxl-linkedin"></i></a>
             </div>
           </div>
@@ -950,7 +951,7 @@
     <div class="container footer-bottom clearfix">
       <div class="copyright">
         &copy; Copyright
-        <script>document.write(new Date().getFullYear());</script><strong><span> Ultimate Health Direct Primary Care
+        <script async>document.write(new Date().getFullYear());</script><strong><span> Ultimate Health Direct Primary Care
             LLC</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
@@ -978,7 +979,6 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script async src="assets/js/lazysizes.min.js"></script>
 
 </body>
 
