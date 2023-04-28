@@ -120,11 +120,11 @@
               <li><a href="twenty-four-hour-health-care.html">24 Hour Health Care</a></li>
               <li><a href="vaginal-rejuvenation.html">Vaginal Rejuvenation</a></li>
               <li><a href="cash-based-medicine.html">Cash Based Medicine</a></li>
-              <li><a href="semaglutide-weight-loss.html">Semaglutide</a></li>
-              <li><a href="menopause.html">Menopause</a></li>
-              <li><a href="vaginal-dryness.html">Vaginal Dryness</a></li>
-              <li><a href="papsmear.html">Pap Smears</a></li>
-              <li><a href="mental-health.html">Mental Health</a></li>
+              <li><a href="semaglutide-weight-loss.html">Semaglutide<span class="badge badge-override badge-secondary">New</span></a></li>
+              <li><a href="menopause.html">Menopause<span class="badge badge-override badge-secondary">New</span></a></li>
+              <li><a href="vaginal-dryness.html">Vaginal Dryness<span class="badge badge-override badge-secondary">New</span></a></li>
+              <li><a href="papsmear.html">Pap Smears<span class="badge badge-override badge-secondary">New</span></a></li>
+              <li><a href="mental-health.html">Mental Health<span class="badge badge-override badge-secondary">New</span></a></li>
             </ul>
           </li>
           <li class="dropdown nav-link"><a href="iv-hydration.html"><span>Hydration Products</span> <i class="bi bi-chevron-down"></i></a>
@@ -168,16 +168,11 @@
         <!-- ======= Portfolio Section ======= -->
         <section id="portfolio" class="portfolio full-product-price-bg employee-membership-text">
             <div class="container" data-aos="fade-up">
-        
-                <div class="section-title text-white">
-                    <h1>Vaginal Dryness</h1>
-                    <p>
-                    </p>
-
-                </div>
-                <div class="row content">
-                
-                    <div class="col-lg-12 pt-4 pt-lg-0">
+                <div class="row content">                
+                    <div class="col-lg-8 pt-4 pt-lg-0">
+                      <div class="section-title text-white">
+                        <h1>Vaginal Dryness</h1>
+                      </div>
 
                       <!-- Bootswatch card styles -->
                       <div class="card mb-3">
@@ -251,7 +246,7 @@
                           <a href="https://www.google.com/maps/dir//Ultimate+Health+Direct+Primary+Care+LLC,+733+N+3rd+St,+Leesburg,+FL+34748/@28.818794,-81.876607,16z/data=!4m9!4m8!1m0!1m5!1m1!1s0x88e7c1ea00ccb37b:0x61f30c383d9291d!2m2!1d-81.8766068!2d28.8187935!3e0?hl=en"
                           target="_blank" class="text-warning"> Get Directions</a>
                         </div>
-                      </div>
+                      </div> <!-- Bootswatch Card Styles -->
 
                       <!--<div class="card">
                         <div class="card-body">
@@ -267,9 +262,110 @@
                       <!-- Bootswatch card styles -->
 
 
-                   
-                </div>
-            </div>
+                   </div> <!-- Close Column 8 -->
+
+                   <!-- Related Column -->
+                  <div class="col-lg-4 pt-4 pt-lg-0">
+                    <div class="section-title text-white">
+                      <h1>Related</h1>
+                    </div>
+                    <div class="card card-margin-btm-5px">
+                      <div class="card-body">
+                        <h4 class="card-title">Women's Health</h4>
+                        <p class="card-text">Our nurse practitioner board certified, Amanda Neil, A-GNP-C provides primary care with a
+                          focus on gynecology,
+                          preconception, and menopause.
+                        </p>
+                        <a href="https://app.elationemr.com/book/UltimateHealthDPC" target="_blank" class="card-link"> Book
+                          appointment</a>
+                        <a href="womens-health.html" class="card-link">Women's Health<i class='bx bxs-right-arrow-alt'></i></a>
+                      </div>
+                    </div>
+                    <!-- email subscribe box -->
+                    <div class="card card-margin-btm-5px">
+                      <div class="card-body">
+                        <h4 class="card-title">Get Email Updates</h4>
+                        <!--====================== Email Subscribers Form ===========================-->
+                        <form name="submit-to-google-sheet" id="third-form" method="post">
+                          <input class="btn btn-light" type="email" name="email" placeholder="Enter your email">
+                          <input class="btn btn-light" name="submitEmail" type="submit" value="Send">
+                        </form>
+                        <script>
+                          const scriptURL3 = 'https://script.google.com/macros/s/AKfycbzNVSAo7I5jGD9fByzj2KOhGnAL63zZMGIQymv-0oTWmlyieN8m/exec'
+                          const form3 = document.forms['submit-to-google-sheet']
+
+                          form3.addEventListener('submit', c => {
+                            c.preventDefault()
+                            fetch(scriptURL3, { method: 'POST', body: new FormData(form3) })
+                              .then(response => console.log('Success!', response))
+                              .catch(error => console.error('Error!', error.message))
+                            document.forms['third-form'].reset()
+                          })
+                        </script>
+                      </div>
+                    </div>
+                  
+                    <div class="card card-margin-btm-5px">
+                      <div class="card-body">
+                        <h4 class="card-title">Vaginal Rejuvenation</h4>
+                        <p class="card-text">Laser Vaginal Tightening with FemiLift is a breakthrough treatment that can help restore a
+                          youthful vagina and improve
+                          stress urinary incontinence.
+                        </p>
+                  
+                        <a href="https://app.elationemr.com/book/UltimateHealthDPC" target="_blank" class="card-link"> Book
+                          appointment</a>
+                        <a href="vaginal-rejuvenation.html" class="card-link">Learn More<i class='bx bxs-right-arrow-alt'></i></a>
+                      </div>
+                    </div>
+                  
+                    <div class="card card-margin-btm-5px">
+                      <div class="card-body">
+                        <h4 class="card-title">Menopause</h4>
+                        <p class="card-text">Menopause is a natural process that occurs in women as they age and marks the end of their
+                          reproductive years. It is
+                          typically characterized by a decrease in estrogen production and can lead to various physical and emotional
+                          symptoms.
+                        </p>
+                        <a href="https://app.elationemr.com/book/UltimateHealthDPC" target="_blank" class="card-link"> Book
+                          appointment</a>
+                        <a href="menopause.html" class="card-link">Menopause<i class='bx bxs-right-arrow-alt'></i></a>
+                      </div>
+                    </div>
+                  
+                    <div class="card card-margin-btm-5px">
+                      <div class="card-body">
+                        <h4 class="card-title">Pap Smear</h4>
+                        <p class="card-text">Pap smears, also known as Pap tests or cervical cytology screenings, are an important tool for
+                          women's health to detect
+                          early signs of cervical cancer or precancerous conditions.
+                        </p>
+                        <a href="https://app.elationemr.com/book/UltimateHealthDPC" target="_blank" class="card-link"> Book
+                          appointment</a>
+                        <a href="papsmear.html" class="card-link">Pap Smear<i class='bx bxs-right-arrow-alt'></i></a>
+                      </div>
+                    </div>
+                  
+                  
+                  
+                    <div class="card card-margin-btm-5px">
+                      <div class="card-body">
+                        <h4 class="card-title">Weight Loss</h4>
+                        <p class="card-text">Ultimate Health offers a GLP-1/Semaglutide Weight Loss Program. Semaglutide is a newer, more
+                          effective way to lose
+                          weight.
+                        </p>
+                        <a href="https://app.elationemr.com/book/UltimateHealthDPC" target="_blank" class="card-link"> Book
+                          appointment</a>
+                        <a href="semaglutide-weight-loss.html" class="card-link">Weight Loss<i class='bx bxs-right-arrow-alt'></i></a>
+                      </div>
+                    </div>
+                    <!-- place new div here for side column links containing navigation to other pages-->
+                  </div>
+                  <!-- Related Column -->
+
+                </div> <!-- Row-->
+            </div> <!-- Container-->
         </section>
         <!-- ======= Portfolio Section ======= -->
 
