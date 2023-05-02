@@ -479,6 +479,15 @@ h1, h2, h3, h4, h5, h6 {
 .padding-5px{
   padding:5px;
 }
+.max-50-go-left {
+  max-width: 50%;
+  float:left;
+}
+.max-50-go-right {
+  max-width: 50%;
+  float: right;
+}
+
 .margin-right-40{
   margin: 0 40px 0 0;
 }
