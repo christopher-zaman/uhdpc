@@ -201,7 +201,9 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
   align-items: center;
 }
-
+.list-style-type-none {
+  list-style-type:none;
+}
 .navbar li {
   position: relative;
 }
