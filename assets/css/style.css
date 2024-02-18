@@ -72,6 +72,9 @@ a:hover {
 .vampire-facial-red {
   color: #c40000;
 }
+.formula-82-green {
+  color:#1b5114;
+}
 .business-logo-styles {
   max-width: 20%;
   float: right;
@@ -558,10 +561,6 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-.white-transparent-bg{
-  background-color: rgba(255,255,255,0.7);
-  color:#000;
-}
 .black-transparent-bg{
   background-color: rgba(0, 0, 0, 0.4);
   color:#ffffff;
@@ -1294,12 +1293,61 @@ section {
   background: url("../../images/vampire-facial.jpg") fixed center center;
   background-size: cover;
 }
+.sexual-wellness-bg-banner {
+  width: 100%;
+  height: 80vh;
+  background: url("../../images/sexual-wellness-bg-images/sexual-wellness-bg-banner.webp") fixed center center;
+  background-size: cover;
+}
+.skin-care-bg-banner {
+  width: 100%;
+  height: 80vh;
+  background: url("../../images/sexual-wellness-bg-images/skin-care-products.webp") fixed center center;
+  background-size: cover;
+}
+.vampire-hair-bg {
+  width: 100%;
+  height: 80vh;
+  background: url("../../images/sexual-wellness-bg-images/hair.webp") fixed center center;
+  background-size: cover;
+}
+.biote-bg {
+  width: 100%;
+  height: 80vh;
+  background: url("../../images/sexual-wellness-bg-images/biote-bg-banner.webp") fixed center center;
+  background-size: cover;
+}
+.hair-science-bg {
+  width: 100%;
+  height: 80vh;
+  background: url("../../images/sexual-wellness-bg-images/hair-science-bg-banner.webp") fixed center center;
+  background-size: cover;
+}
+.morpheus-8-bg {
+  width: 100%;
+  height: 80vh;
+  background: url("../../images/sexual-wellness-bg-images/tampa-skin-tightening.webp") fixed center center;
+  background-size: cover;
+}
+.vampire-wing-bg {
+  width: 100%;
+  height: 80vh;
+  background: url("../../images/sexual-wellness-bg-images/vampire-wing-lift-bg-banner.webp") fixed center center;
+  background-size: cover;
+}
+.vampire-breast-bg {
+  width: 100%;
+  height: 80vh;
+  background: url("../../images/sexual-wellness-bg-images/vampire-breast-left-bg-banner.webp") fixed center center;
+  background-size: cover;
+}
 .votiva-vaginal-bg {
   width: 100%;
   height: 80vh;
   background: url("../../images/votiva-vaginal-bg.jpeg") fixed center center;
   background-size: cover;
 }
+
 .empower-rf-banner-bg {
   width: 100%;
   height: 80vh;
@@ -1312,7 +1360,16 @@ section {
   max-width: 70%;
   margin:auto;
 }
-
+.banner-text {
+  color: #37517e;
+  background-color:rgba(255, 255, 255, 0.6);
+  margin:auto;
+}
+.morpheus-text{
+  color: #37517e;
+  background-color:rgba(255, 255, 255, 0.6);
+  margin:auto;
+}
 #videoBanner {
   position: relative;
   width: 100%;
@@ -1452,12 +1509,8 @@ section {
   background-size:cover;
   max-width: 100%;
   height: 55vh;
-
 }
 
-.vampire-facial-red {
- 
-}
 .border-one-pixel-dotted {
     border: 1px dotted;
 }
@@ -1980,6 +2033,9 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 }
 .uhdpc-text-blue{
     color: #37517e;
+}
+.empower-pink {
+  color:#ef6897;
 }
 .faq .faq-list ul {
   padding: 0;
