@@ -22,11 +22,76 @@ a:hover {
   color: #4668a2;
   text-decoration: none;
 }
-/*review box*/
 
-.review-box {
-
+/* Card Sexual Wellness*/
+.video-o-shot{
+  float:left;
 }
+.video-floating-effect {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+}
+.video-responsive {
+  max-width: 100%;
+  margin: auto;
+}
+
+.card-header-sexual-wellness,
+.card-footer-sexual-wellness {
+  border-color: #ebeef4;
+  background-color: #fff;
+  color: #798eb3;
+  padding: 15px;
+}
+
+.card-title-sexual-wellness {
+  padding: 20px 0 15px 0;
+  font-size: x-large;
+  font-weight: 500;
+  color: #012970;
+  font-family: "Poppins", sans-serif;
+}
+.card-title-sexual-wellness a {
+  color: #012970;
+}
+.card-text-sexual-wellness {
+  font-size: large;
+}
+.sexual-wellness-consult-text {
+  font-size: x-large;
+}
+#o-shot-unique-list li{
+  margin: 0px 0px 10px 0px;
+}
+.o-shot-pink {
+  color: #F591C9;
+}
+.p-shot-blue {
+  color: #012970;
+}
+.vampire-facial-red {
+  color: #c40000;
+}
+.business-logo-styles {
+  max-width: 20%;
+  float: right;
+}
+
+.card-title-sexual-wellness span {
+  color: #899bbd;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-body-sexual-wellness {
+  padding: 0 20px 20px 20px;
+}
+
+.card-img-overlay-sexual-wellness {
+  background-image: url(../img/resized-imgs/vitamin-bg.png);
+}
+
+
 /* bootswartch card style*/
 .card {
   color: #fff;
@@ -70,8 +135,26 @@ h1, h2, h3, h4, h5, h6 {
 .font-size-larger{
   font-size:larger;
 }
+.font-size-x-large{
+  font-size:x-large;
+}
 .badge-override {
   color: orange !important;
+}
+.r-size-1rem {
+  font-size: 1rem;
+}
+.dark-blue-text {
+  color: #012970;
+}
+/* -------------------------------------------------------------
+# Tabular
+-------------------------------------------------------------- */
+.tabular-styles {
+  padding: 0px 10px 100px 10px;
+  box-shadow: 0px 0 20px rgba(255,255,255,0.7);
+  border-radius: 10px;
+  background-color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -161,6 +244,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+  background: rgba(40, 58, 90, 0.728);
 }
 
 #header.header-scrolled, #header.header-inner-pages {
@@ -229,6 +313,12 @@ h1, h2, h3, h4, h5, h6 {
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #47b2e4;
 }
+.sexual-wellness-quartz-theme {
+      backdrop-filter: blur(5px);
+      color: #fff;
+      padding: 19px 10px 20px 10px !important;
+      box-shadow: none !important;
+}
 .quartz-theme {
       border: none;
       box-shadow:none !important;
@@ -241,6 +331,19 @@ h1, h2, h3, h4, h5, h6 {
       overflow: hidden;
       color: #fff;
       padding: 19px 10px 20px 10px !important;
+}
+
+.quartz-theme-sexual-wellness{
+  border: none;
+  box-shadow:none !important;
+  /*box-shadow: inset 1px 1px rgb(255 255 255 / 20%), inset -1px -1px rgb(255 255 255 / 10%), 1px 3px 24px -1px rgb(0 0 0 / 15%);*/
+  background-color: transparent;
+  background-image: url(../img/resized-imgs/vitamin-bg.png);
+  backdrop-filter: blur(5px);
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  padding: 19px 10px 20px 10px !important;
 }
 .w-90{
   max-width: 90%;
@@ -435,12 +538,33 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
+
+/* Custom Cards */
+
+.custom-card-stylez {
+  background: none;
+  background-image: none;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+.empower-vag-device {
+  float: left;
+  /* padding: 10px; */
+  margin: 0px 10px 0px 0px;
+  max-width: 16%;
+  /* display: block; */
+  padding: 0 0 0 0;
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 .white-transparent-bg{
   background-color: rgba(255,255,255,0.7);
   color:#000;
+}
+.black-transparent-bg{
+  background-color: rgba(0, 0, 0, 0.4);
+  color:#ffffff;
 }
 .transparent-bg{
   background-color: rgba(255, 255, 255, 0.7);
@@ -468,6 +592,19 @@ h1, h2, h3, h4, h5, h6 {
   height: 62.8vh;
   background-image: url(../img/amanda-banner.jpg);
   background-repeat: no-repeat;
+}
+#hero-sexual-wellness{
+  width: 100%;
+  height: 80vh;
+  /*background: #37517e;*/
+  /* height: 62.8vh; */
+  background-image: url("../../images/happy-couple.jpg");
+  background-size:cover;
+  
+  /* background-color: #000; */
+}
+.sexual-wellness-bg {
+    background-image: linear-gradient(90deg, #113d69, #5e62b0, #460042);
 }
 .uhdpc-border-top-and-bottom{
   width: 100%;
@@ -751,6 +888,29 @@ section {
   border-top: 4px solid;
   border-image: linear-gradient(90deg,#97c73d,#97c73d,#819fd2,#5a81c4);
   border-image-slice: 1;
+}
+.uhdpc-gradient-border-sexual-wellness{
+  border-top: 4px solid;
+  border-image: linear-gradient(90deg,#f591c9,#ff4ab1,#3b75fa,#0a2970);
+  border-image-slice: 1;
+}
+
+.uhdpc-gradient-border-sexual-wellness-backwards{
+  border-top: 4px solid;
+  border-image: linear-gradient(90deg,#0a2970,#3b75fa,#f591c9,#ff4ab1);
+  border-image-slice: 1;
+}
+.pop-out-text {
+  text-shadow:
+                1px 1px 0 #ccc, /* Top-left light shadow */
+                2px 2px 0 #ccc, /* Top-left light shadow */
+          
+                7px 7px 10px rgba(0,0,0,0.7), /* Diffuse shadow to create depth */
+                
+                0 0 5px rgba(0,0,0,0.1); /* Soft shadow around the text */
+}
+.font-3rem {
+  font-size:3rem;
 }
 .cliens {
   padding: 12px 0;
@@ -1112,11 +1272,212 @@ section {
   background-size: cover;
   padding: 120px 0;
 }
+.sexual-wellness-cta {
+  background: url("../img/amanda.webp") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+  color: #000000;
+}
+.o-shot-bg{
+  background: linear-gradient(rgba(40, 58, 90, 0.4), rgba(40, 58, 90, 0.4)), url("../../images/o-shot.jpg") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+}
+.happy-couple-o-shot-bg {
+  background: url("../../happy-couple-o-shot.jpg") fixed center center;
+  background-size: cover;
+  /* padding: 120px 0; */
+}
+.vampire-facial-bg {
+  width: 100%;
+  height: 80vh;
+  background: url("../../images/vampire-facial.jpg") fixed center center;
+  background-size: cover;
+}
+.votiva-vaginal-bg {
+  width: 100%;
+  height: 80vh;
+  background: url("../../images/votiva-vaginal-bg.jpeg") fixed center center;
+  background-size: cover;
+}
+.empower-rf-banner-bg {
+  width: 100%;
+  height: 80vh;
+  background: url("../../images/empowerrf-banner.jpg") fixed center center;
+  background-size: cover;
+}
+.empower-text{
+  color: #37517e;
+  background-color:rgba(255, 255, 255, 0.6);
+  max-width: 70%;
+  margin:auto;
+}
 
+#videoBanner {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.video-o-shot-genai {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-o-shot-genait video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This ensures the video covers the area, might crop */
+}
+.shadow-text {
+  text-shadow: 0 0 black;
+}
+.side-card-image {
+  max-width:100%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+}
+/* Product images */
+.product-img-1 {
+  background-image: url(../../product-images/product1.jpg);
+  background-size:cover;
+  max-width: 100%;
+  height: 55vh;
+
+}
+.product-img-2 {
+  background-image: url(../../product-images/product2.jpg);
+  background-size:cover;
+  max-width: 100%;
+  height: 55vh;
+
+}
+.product-img-3 {
+  background-image: url(../../product-images/product3.jpg);
+  background-size:cover;
+  max-width: 100%;
+  height: 55vh;
+
+}
+.product-img-4 {
+  background-image: url(../../product-images/product4.jpg);
+  background-size:cover;
+  max-width: 100%;
+  height: 55vh;
+
+}
+.product-img-5 {
+  background-image: url(../../product-images/product5.jpg);
+  background-size:cover;
+  max-width: 100%;
+  height: 55vh;
+
+}
+.product-img-6 {
+  background-image: url(../../product-images/product6.jpg);
+  background-size:cover;
+  max-width: 100%;
+  height: 55vh;
+
+}
+.product-img-7 {
+  background-image: url(../../product-images/product7.jpg);
+  background-size:cover;
+  max-width: 100%;
+  height: 55vh;
+
+}
+.product-img-8 {
+  background-image: url(../../product-images/product8.jpg);
+  background-size:cover;
+  max-width: 100%;
+  height: 55vh;
+
+}
+.product-img-9 {
+  background-image: url(../../product-images/product9.jpg);
+  background-size:cover;
+  max-width: 100%;
+  height: 55vh;
+
+}
+.product-img-10 {
+  background-image: url(../../product-images/product10.jpg);
+  background-size:cover;
+  max-width: 100%;
+  height: 55vh;
+
+}
+.product-img-11 {
+  background-image: url(../../product-images/product11.jpg);
+  background-size:cover;
+  max-width: 100%;
+  height: 55vh;
+
+}
+.product-img-12 {
+  background-image: url(../../product-images/product12.jpg);
+  background-size:cover;
+  max-width: 100%;
+  height: 55vh;
+
+}
+.product-img-13 {
+  background-image: url(../../product-images/product13.jpg);
+  background-size:cover;
+  max-width: 100%;
+  height: 55vh;
+
+}
+.product-img-14 {
+  background-image: url(../../product-images/product14.jpg);
+  background-size:cover;
+  max-width: 100%;
+  height: 55vh;
+
+}
+.product-img-15 {
+  background-image: url(../../product-images/product15.jpg);
+  background-size:cover;
+  max-width: 100%;
+  height: 55vh;
+
+}
+.product-img-16 {
+  background-image: url(../../product-images/product16.jpg);
+  background-size:cover;
+  max-width: 100%;
+  height: 55vh;
+
+}
+
+.vampire-facial-red {
+ 
+}
 .border-one-pixel-dotted {
     border: 1px dotted;
 }
-
+.video-banner {
+  position: relative;
+  width: 100%; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+.video-banner video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  /* Ensure the video is covering the whole banner area */
+  min-width: 100%;
+  min-height: 100%;
+}
 .cta h3 {
   color: #fff;
   font-size: 28px;
@@ -1170,6 +1531,34 @@ section {
 
 .full-product-price-bg{
   background-image: linear-gradient(90deg, #113d69, #5e62b0, #92be65);
+}
+.sexual-wellness-cards {
+  color:#fff;
+}
+.o-shot-card-image {
+  background-image: url("../../images/o-shot-beach.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  width: 100%;
+  height: 50vh;
+}
+
+.p-shot-card-image {
+  background-image: url("../../images/p-shot-thumbnail.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  width: 100%;
+  height: 50vh;
+}
+.duo-card-image {
+  background-image: url("../../images/duo-thumbnail.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  width: 100%;
+  height: 50vh;
 }
 .portfolio #portfolio-flters {
   list-style: none;
@@ -1679,6 +2068,13 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact-sexual-wellness-bg {
+  /* background-image: url(../img/amanda-banner.jpg); */
+  background: linear-gradient(rgba(40, 58, 90, 0.7), rgba(40, 58, 90, 0.7)), url("../img/amanda.webp") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+}
+
 .contact .info {
   border-top: 4px solid;
   border-image: linear-gradient(90deg,#97c73d,#97c73d,#819fd2,#5a81c4);
@@ -1832,6 +2228,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
   border-color: #47b2e4;
+  background: none;
 }
 
 .contact .php-email-form input {
@@ -1855,7 +2252,25 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
   background: #ccccfb;
   color: #5b81c5;
 }
+.sexual-wellness-contact {
+  background: none !important;
+  border-top:none !important;
+  box-shadow: none !important;
+  border:none !important;
 
+}
+.bg-none {
+  background: none;
+}
+.border-none {
+  border:none;
+}
+.border-btm {
+  border-bottom: 1px solid #fff;
+}
+.bg-none-important {
+  background: none !important;
+}
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
