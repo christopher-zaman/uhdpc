@@ -761,6 +761,135 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+/* New Media Queries for new banner pictures on new sexual wellness pages for the new services for the new updates */
+@media (max-width: 991px) {
+  #hero-sexual-wellness {
+    /*height: 100vh;*/
+    text-align: center;
+    background-image: url(../img/happy-couple-mobile.jpg);
+  }
+  #hero-sexual-wellness .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-sexual-wellness .hero-img {
+    text-align: center;
+  }
+  #hero-sexual-wellness .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-sexual-wellness h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-sexual-wellness h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-sexual-wellness .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #hero-sexual-wellness{
+    background-image: url(../img/happy-couple-small-mobile.jpg);
+  }
+  #hero-sexual-wellness .hero-img img {
+    width: 80%;
+  }
+  #hero-sexual-wellness .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+/* End New Media Queries for new banner pictures on new sexual wellness pages for the new services for the new updates */
+
+/* Vampire Hair Queries */
+
+@media (max-width: 991px) {
+  #hero-vampire-hair {
+    /*height: 100vh;*/
+    text-align: center;
+    background-image: url(../img/hair-mobile.webp);
+  }
+  #hero-vampire-hair .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-vampire-hair .hero-img {
+    text-align: center;
+  }
+  #hero-vampire-hair .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-vampire-hair h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-vampire-hair h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-vampire-hair .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #hero-vampire-hair{
+    background-image: url(../img/hair-small-mobile.jpg);
+  }
+  #hero-vampire-hair .hero-img img {
+    width: 80%;
+  }
+  #hero-vampire-hair .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+
+/* End Vampire Hair Queries */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @-webkit-keyframes up-down {
   0% {
     transform: translateY(10px);
