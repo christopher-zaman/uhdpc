@@ -642,18 +642,28 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-size:cover;
 }
-/* #hero-vampire-hair {
+
+#hero-biote {
   width: 100%;
   height: 80vh;
-  background-image: url(../img/hair.jpeg);
+  background: url("../img/biote-bg-banner.jpeg") fixed center center;
   background-repeat: no-repeat;
-} */
-
-
-
-
-
-
+  background-size:cover;
+}
+#hero-hair-science {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/hair-science-bg-banner.webp") fixed center center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+#hero-skin-care{
+  width: 100%;
+  height: 80vh;
+  background: url("../img/skin-care-products.webp") fixed center center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
 
 .sexual-wellness-bg {
     background-image: linear-gradient(90deg, #113d69, #5e62b0, #460042);
@@ -1133,11 +1143,171 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* End Votiva */
+/* End Morpheus */
 
 
 
+/* BioTE */
 
+@media (max-width: 991px) {
+  #hero-biote {
+    text-align: center;
+    background-image: url(../img/biote-bg-mobile.jpg);
+  }
+  #hero-biote .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-biote .hero-img {
+    text-align: center;
+  }
+  #hero-biote .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-biote h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-biote h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-biote .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #hero-biote{
+    background-image: url(../img/biote-mobile-small.jpg);
+  }
+  #hero-biote .hero-img img {
+    width: 80%;
+  }
+  #hero-biote .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+
+/* End BioTe */
+
+
+/* Hair Science */
+
+@media (max-width: 991px) {
+  #hero-hair-science {
+    text-align: center;
+    background-image: url(../img/hair-science-mobile.jpg);
+  }
+  #hero-biote .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-hair-science .hero-img {
+    text-align: center;
+  }
+  #hero-hair-science .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-hair-science h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-hair-science h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-hair-science .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #hero-hair-science{
+    background-image: url(../img/hair-science-mobile-small.jpg);
+  }
+  #hero-hair-science .hero-img img {
+    width: 80%;
+  }
+  #hero-hair-science .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+
+/* End Hair Science */
+
+
+
+/* Skin Care */
+
+@media (max-width: 991px) {
+  #hero-skin-care {
+    text-align: center;
+    background-image: url(../img/skin-care-products-mobile.jpg);
+  }
+  #hero-skin-care .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-skin-care .hero-img {
+    text-align: center;
+  }
+  #hero-skin-care .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-skin-care h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-skin-care h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-skin-care .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #hero-skin-care{
+    background-image: url(../img/skin-care-products-small-mobile.jpg);
+  }
+  #hero-skin-care .hero-img img {
+    width: 80%;
+  }
+  #hero-skin-care .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+
+/* End Skin Care */
 
 
 /* Vampire Hair Queries */
