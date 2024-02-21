@@ -664,7 +664,13 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-size:cover;
 }
-
+#hero-vampire-facial {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/vampire-facial.webp") fixed center center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
 .sexual-wellness-bg {
     background-image: linear-gradient(90deg, #113d69, #5e62b0, #460042);
 }
@@ -1308,6 +1314,62 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* End Skin Care */
+
+
+
+
+/* Vampire Facial */
+
+@media (max-width: 991px) {
+  #hero-vampire-facial {
+    text-align: center;
+    background-image: url(../img/vampire-facial-mobile.webp);
+  }
+  #hero-vampire-facial .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-vampire-facial .hero-img {
+    text-align: center;
+  }
+  #hero-vampire-facial .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-vampire-facial h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-vampire-facial h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-vampire-facial .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #hero-vampire-facial{
+    background-image: url(../img/vampire-facial-small.webp);
+  }
+  #hero-vampire-facial .hero-img img {
+    width: 80%;
+  }
+  #hero-vampire-facial .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+
+/* End Vampire Facial */
 
 
 /* Vampire Hair Queries */
