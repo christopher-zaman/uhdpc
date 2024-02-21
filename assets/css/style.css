@@ -586,8 +586,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero {
   width: 100%;
-  /*height: 80vh;*/
-  /*background: #37517e;*/
   height: 62.8vh;
   background-image: url(../img/amanda-banner.jpg);
   background-repeat: no-repeat;
@@ -595,21 +593,37 @@ h1, h2, h3, h4, h5, h6 {
 #hero-sexual-wellness{
   width: 100%;
   height: 80vh;
-  /*background: #37517e;*/
-  /* height: 62.8vh; */
   background-image: url("../../images/happy-couple.jpg");
+  background-repeat: no-repeat;
   background-size:cover;
-  
-  /* background-color: #000; */
 }
 #hero-vampire-breast {
   width: 100%;
-  /*height: 80vh;*/
-  /*background: #37517e;*/
-  height: 62.8vh;
+  height: 80vh;
   background-image: url(../img/vampire-breast-left-bg-banner.webp);
   background-repeat: no-repeat;
+  background-size:cover;
 }
+#hero-vampire-hair {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../img/hair.jpeg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+/* #hero-vampire-hair {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../img/hair.jpeg);
+  background-repeat: no-repeat;
+} */
+
+
+
+
+
+
+
 .sexual-wellness-bg {
     background-image: linear-gradient(90deg, #113d69, #5e62b0, #460042);
 }
