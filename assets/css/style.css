@@ -602,6 +602,14 @@ h1, h2, h3, h4, h5, h6 {
   
   /* background-color: #000; */
 }
+#hero-vampire-breast {
+  width: 100%;
+  /*height: 80vh;*/
+  /*background: #37517e;*/
+  height: 62.8vh;
+  background-image: url(../img/vampire-breast-left-bg-banner.webp);
+  background-repeat: no-repeat;
+}
 .sexual-wellness-bg {
     background-image: linear-gradient(90deg, #113d69, #5e62b0, #460042);
 }
@@ -813,6 +821,66 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 /* End New Media Queries for new banner pictures on new sexual wellness pages for the new services for the new updates */
+
+
+
+
+/* Breast */
+
+@media (max-width: 991px) {
+  #hero-vampire-breast {
+    /*height: 100vh;*/
+    text-align: center;
+    background-image: url(../img/vampire-breast-mobile.jpg);
+  }
+  #hero-vampire-breast .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-vampire-breast .hero-img {
+    text-align: center;
+  }
+  #hero-vampire-breast .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-vampire-breast h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-vampire-breast h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-vampire-breast .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #hero-vampire-breast{
+    background-image: url(../img/vampire-breast-mobile-small.jpg);
+  }
+  #hero-vampire-breast .hero-img img {
+    width: 80%;
+  }
+  #hero-vampire-breast .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+/* End Breast */
+
+
+
+
 
 /* Vampire Hair Queries */
 
