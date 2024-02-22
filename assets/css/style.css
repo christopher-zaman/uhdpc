@@ -630,7 +630,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero-votiva {
   width: 100%;
   height: 80vh;
-  background: url("../img/votiva-vaginal-bg.jpeg");
+  /* background: url("../img/votiva-vaginal-bg.jpeg"); */
+  background: url("../img/votiva-vaginal-bg.webp");
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -2928,7 +2929,8 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 991px) {
   #hero-votiva {
     text-align: center;
-    background-image: url(../img/votiva-vaginal-mobile.jpg);
+    /* background-image: url(../img/votiva-vaginal-mobile.jpg); */
+    background-image: url(../img/votiva-vaginal-mobile.webp);
   }
   #hero-votiva .animated {
     -webkit-animation: none;
@@ -2960,7 +2962,8 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 575px) {
 
   #hero-votiva{
-    background-image: url(../img/votiva-vaginal-mobile-small.jpg);
+    /* background-image: url(../img/votiva-vaginal-mobile-small.jpg); */
+    background-image: url(../img/votiva-vaginal-mobile-small.webp);
   }
   #hero-votiva .hero-img img {
     width: 80%;
