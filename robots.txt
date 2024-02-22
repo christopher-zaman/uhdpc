@@ -1,2 +1,0 @@
-User-agent: Googlebot
-sitemap: https://www.ultimatehealthdpc.com/sitemap.xml
