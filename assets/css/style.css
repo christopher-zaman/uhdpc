@@ -2876,7 +2876,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 991px) {
   #hero-empower {
     text-align: center;
-    background-image: url(../img/empowerrf-banner-mobile.jpg);
+    background-image: url(../img/empowerrf-banner-redo.jpg);
   }
   #hero-empower .animated {
     -webkit-animation: none;
@@ -2908,7 +2908,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 575px) {
 
   #hero-empower{
-    background-image: url(../img/empowerrf-banner-mobile-small.jpg);
+    background-image: url(../img/empowerrf-banner-redo-small.jpg);
   }
   #hero-empower .hero-img img {
     width: 80%;
@@ -3037,7 +3037,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 991px) {
   #hero-biote {
     text-align: center;
-    background-image: url(../img/biote-bg-mobile.jpg);
+    background-image: url(../img/biote-bg-banner-redo.jpg);
   }
   #hero-biote .animated {
     -webkit-animation: none;
@@ -3069,7 +3069,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 575px) {
 
   #hero-biote{
-    background-image: url(../img/biote-mobile-small.jpg);
+    background-image: url(../img/biote-bg-banner-redo-small.jpg);
   }
   #hero-biote .hero-img img {
     width: 80%;
