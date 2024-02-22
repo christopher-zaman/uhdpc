@@ -647,7 +647,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero-biote {
   width: 100%;
   height: 80vh;
-  background: url("../img/biote-bg-banner.jpeg");
+  background: url("../img/biote-bg-banner-redo.webp");
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -3035,12 +3035,12 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 
 
 
-/* BioTE */
+/* BioTE Mobile Medium*/
 
 @media (max-width: 991px) {
   #hero-biote {
     text-align: center;
-    background-image: url(../img/biote-bg-banner-redo.jpg);
+    background-image: url(../img/biote-bg-mobile.webp);
   }
   #hero-biote .animated {
     -webkit-animation: none;
@@ -3069,10 +3069,11 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
   }
 }
 
+/* Small Mobile */
 @media (max-width: 575px) {
 
   #hero-biote{
-    background-image: url(../img/biote-bg-banner-redo-small.jpg);
+    background-image: url(../img/biote-bg-banner-redo-small.webp);
   }
   #hero-biote .hero-img img {
     width: 80%;
