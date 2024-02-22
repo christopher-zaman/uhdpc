@@ -830,624 +830,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-
-/* New Media Queries for new banner pictures on new sexual wellness pages for the new services for the new updates */
-@media (max-width: 991px) {
-  #hero-sexual-wellness {
-    /*height: 100vh;*/
-    text-align: center;
-    background-image: url(../img/happy-couple-mobile.jpg);
-  }
-  #hero-sexual-wellness .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-  #hero-sexual-wellness .hero-img {
-    text-align: center;
-  }
-  #hero-sexual-wellness .hero-img img {
-    width: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero-sexual-wellness h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero-sexual-wellness h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-  #hero-sexual-wellness .hero-img img {
-    width: 70%;
-  }
-}
-
-@media (max-width: 575px) {
-
-  #hero-sexual-wellness{
-    background-image: url(../img/happy-couple-small-mobile.jpg);
-  }
-  #hero-sexual-wellness .hero-img img {
-    width: 80%;
-  }
-  #hero-sexual-wellness .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-  .no-insurance-banner{
-    margin-top:25px;
-  }
-}
-/* End New Media Queries for new banner pictures on new sexual wellness pages for the new services for the new updates */
-
-
-
-
-/* Breast */
-
-@media (max-width: 991px) {
-  #hero-vampire-breast {
-    /*height: 100vh;*/
-    text-align: center;
-    background-image: url(../img/vampire-breast-mobile.jpg);
-  }
-  #hero-vampire-breast .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-  #hero-vampire-breast .hero-img {
-    text-align: center;
-  }
-  #hero-vampire-breast .hero-img img {
-    width: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero-vampire-breast h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero-vampire-breast h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-  #hero-vampire-breast .hero-img img {
-    width: 70%;
-  }
-}
-
-@media (max-width: 575px) {
-
-  #hero-vampire-breast{
-    background-image: url(../img/vampire-breast-mobile-small.jpg);
-  }
-  #hero-vampire-breast .hero-img img {
-    width: 80%;
-  }
-  #hero-vampire-breast .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-  .no-insurance-banner{
-    margin-top:25px;
-  }
-}
-/* End Breast */
-
-
-/* Wing */
-
-@media (max-width: 991px) {
-  #hero-vampire-wing {
-    text-align: center;
-    background-image: url(../img/vampire-wing-lift-mobile.jpg);
-  }
-  #hero-vampire-wing .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-  #hero-vampire-wing .hero-img {
-    text-align: center;
-  }
-  #hero-vampire-wing .hero-img img {
-    width: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero-vampire-wing h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero-vampire-wing h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-  #hero-vampire-wing .hero-img img {
-    width: 70%;
-  }
-}
-
-@media (max-width: 575px) {
-
-  #hero-vampire-wing{
-    background-image: url(../img/vampire-wing-mobile-small.jpg);
-  }
-  #hero-vampire-wing .hero-img img {
-    width: 80%;
-  }
-  #hero-vampire-wing .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-  .no-insurance-banner{
-    margin-top:25px;
-  }
-}
-/* End Wing */
-
-/* Empower RF */
-
-@media (max-width: 991px) {
-  #hero-empower {
-    text-align: center;
-    background-image: url(../img/empowerrf-banner-mobile.jpg);
-  }
-  #hero-empower .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-  #hero-empower .hero-img {
-    text-align: center;
-  }
-  #hero-empower .hero-img img {
-    width: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero-empower h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero-empower h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-  #hero-empower .hero-img img {
-    width: 70%;
-  }
-}
-
-@media (max-width: 575px) {
-
-  #hero-empower{
-    background-image: url(../img/empowerrf-banner-mobile-small.jpg);
-  }
-  #hero-empower .hero-img img {
-    width: 80%;
-  }
-  #hero-empower .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-  .no-insurance-banner{
-    margin-top:25px;
-  }
-}
-/* End Empower RF */
-
-/* Votiva */
-
-@media (max-width: 991px) {
-  #hero-votiva {
-    text-align: center;
-    background-image: url(../img/votiva-vaginal-mobile.jpg);
-  }
-  #hero-votiva .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-  #hero-votiva .hero-img {
-    text-align: center;
-  }
-  #hero-votiva .hero-img img {
-    width: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero-votiva h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero-votiva h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-  #hero-votiva .hero-img img {
-    width: 70%;
-  }
-}
-
-@media (max-width: 575px) {
-
-  #hero-votiva{
-    background-image: url(../img/votiva-vaginal-mobile-small.jpg);
-  }
-  #hero-votiva .hero-img img {
-    width: 80%;
-  }
-  #hero-votiva .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-  .no-insurance-banner{
-    margin-top:25px;
-  }
-}
-
-/* End Votiva */
-
-
-/* Morpheus */
-
-@media (max-width: 991px) {
-  #hero-morpheus {
-    text-align: center;
-    background-image: url(../img/tampa-skin-tightening-mobile.jpg);
-  }
-  #hero-morpheus .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-  #hero-morpheus .hero-img {
-    text-align: center;
-  }
-  #hero-morpheus .hero-img img {
-    width: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero-morpheus h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero-morpheus h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-  #hero-morpheus .hero-img img {
-    width: 70%;
-  }
-}
-
-@media (max-width: 575px) {
-
-  #hero-morpheus{
-    background-image: url(../img/tampa-skin-tightening-small-mobile.jpg);
-  }
-  #hero-morpheus .hero-img img {
-    width: 80%;
-  }
-  #hero-morpheus .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-  .no-insurance-banner{
-    margin-top:25px;
-  }
-}
-
-/* End Morpheus */
-
-
-
-/* BioTE */
-
-@media (max-width: 991px) {
-  #hero-biote {
-    text-align: center;
-    background-image: url(../img/biote-bg-mobile.jpg);
-  }
-  #hero-biote .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-  #hero-biote .hero-img {
-    text-align: center;
-  }
-  #hero-biote .hero-img img {
-    width: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero-biote h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero-biote h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-  #hero-biote .hero-img img {
-    width: 70%;
-  }
-}
-
-@media (max-width: 575px) {
-
-  #hero-biote{
-    background-image: url(../img/biote-mobile-small.jpg);
-  }
-  #hero-biote .hero-img img {
-    width: 80%;
-  }
-  #hero-biote .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-  .no-insurance-banner{
-    margin-top:25px;
-  }
-}
-
-/* End BioTe */
-
-
-/* Hair Science */
-
-@media (max-width: 991px) {
-  #hero-hair-science {
-    text-align: center;
-    background-image: url(../img/hair-science-mobile.jpg);
-  }
-  #hero-biote .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-  #hero-hair-science .hero-img {
-    text-align: center;
-  }
-  #hero-hair-science .hero-img img {
-    width: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero-hair-science h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero-hair-science h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-  #hero-hair-science .hero-img img {
-    width: 70%;
-  }
-}
-
-@media (max-width: 575px) {
-
-  #hero-hair-science{
-    background-image: url(../img/hair-science-mobile-small.jpg);
-  }
-  #hero-hair-science .hero-img img {
-    width: 80%;
-  }
-  #hero-hair-science .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-  .no-insurance-banner{
-    margin-top:25px;
-  }
-}
-
-/* End Hair Science */
-
-
-
-/* Skin Care */
-
-@media (max-width: 991px) {
-  #hero-skin-care {
-    text-align: center;
-    background-image: url(../img/skin-care-products-mobile.jpg);
-  }
-  #hero-skin-care .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-  #hero-skin-care .hero-img {
-    text-align: center;
-  }
-  #hero-skin-care .hero-img img {
-    width: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero-skin-care h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero-skin-care h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-  #hero-skin-care .hero-img img {
-    width: 70%;
-  }
-}
-
-@media (max-width: 575px) {
-
-  #hero-skin-care{
-    background-image: url(../img/skin-care-products-small-mobile.jpg);
-  }
-  #hero-skin-care .hero-img img {
-    width: 80%;
-  }
-  #hero-skin-care .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-  .no-insurance-banner{
-    margin-top:25px;
-  }
-}
-
-/* End Skin Care */
-
-
-
-
-/* Vampire Facial */
-
-@media (max-width: 991px) {
-  #hero-vampire-facial {
-    text-align: center;
-    background-image: url(../img/vampire-facial-mobile.webp);
-  }
-  #hero-vampire-facial .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-  #hero-vampire-facial .hero-img {
-    text-align: center;
-  }
-  #hero-vampire-facial .hero-img img {
-    width: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero-vampire-facial h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero-vampire-facial h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-  #hero-vampire-facial .hero-img img {
-    width: 70%;
-  }
-}
-
-@media (max-width: 575px) {
-
-  #hero-vampire-facial{
-    background-image: url(../img/vampire-facial-small.webp);
-  }
-  #hero-vampire-facial .hero-img img {
-    width: 80%;
-  }
-  #hero-vampire-facial .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-  .no-insurance-banner{
-    margin-top:25px;
-  }
-}
-
-/* End Vampire Facial */
-
-
-/* Vampire Hair Queries */
-
-@media (max-width: 991px) {
-  #hero-vampire-hair {
-    /*height: 100vh;*/
-    text-align: center;
-    background-image: url(../img/hair-mobile.webp);
-  }
-  #hero-vampire-hair .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-  #hero-vampire-hair .hero-img {
-    text-align: center;
-  }
-  #hero-vampire-hair .hero-img img {
-    width: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero-vampire-hair h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero-vampire-hair h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-  #hero-vampire-hair .hero-img img {
-    width: 70%;
-  }
-}
-
-@media (max-width: 575px) {
-
-  #hero-vampire-hair{
-    background-image: url(../img/hair-small-mobile.jpg);
-  }
-  #hero-vampire-hair .hero-img img {
-    width: 80%;
-  }
-  #hero-vampire-hair .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-  .no-insurance-banner{
-    margin-top:25px;
-  }
-}
-
-/* End Vampire Hair Queries */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @-webkit-keyframes up-down {
   0% {
     transform: translateY(10px);
@@ -3326,3 +2708,620 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
     padding-top: 4px;
   }
 }
+
+
+/* New Media Queries for new banner pictures on new sexual wellness pages for the new services for the new updates */
+@media (max-width: 991px) {
+  #hero-sexual-wellness {
+    /*height: 100vh;*/
+    text-align: center;
+    background-image: url(../img/happy-couple-mobile.jpg);
+  }
+  #hero-sexual-wellness .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-sexual-wellness .hero-img {
+    text-align: center;
+  }
+  #hero-sexual-wellness .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-sexual-wellness h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-sexual-wellness h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-sexual-wellness .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #hero-sexual-wellness{
+    background-image: url(../img/happy-couple-small-mobile.jpg);
+  }
+  #hero-sexual-wellness .hero-img img {
+    width: 80%;
+  }
+  #hero-sexual-wellness .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+/* End New Media Queries for new banner pictures on new sexual wellness pages for the new services for the new updates */
+
+
+
+
+/* Breast */
+
+@media (max-width: 991px) {
+  #hero-vampire-breast {
+    /*height: 100vh;*/
+    text-align: center;
+    background-image: url(../img/vampire-breast-mobile.jpg);
+  }
+  #hero-vampire-breast .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-vampire-breast .hero-img {
+    text-align: center;
+  }
+  #hero-vampire-breast .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-vampire-breast h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-vampire-breast h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-vampire-breast .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #hero-vampire-breast{
+    background-image: url(../img/vampire-breast-mobile-small.jpg);
+  }
+  #hero-vampire-breast .hero-img img {
+    width: 80%;
+  }
+  #hero-vampire-breast .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+/* End Breast */
+
+
+/* Wing */
+
+@media (max-width: 991px) {
+  #hero-vampire-wing {
+    text-align: center;
+    background-image: url(../img/vampire-wing-lift-mobile.jpg);
+  }
+  #hero-vampire-wing .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-vampire-wing .hero-img {
+    text-align: center;
+  }
+  #hero-vampire-wing .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-vampire-wing h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-vampire-wing h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-vampire-wing .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #hero-vampire-wing{
+    background-image: url(../img/vampire-wing-mobile-small.jpg);
+  }
+  #hero-vampire-wing .hero-img img {
+    width: 80%;
+  }
+  #hero-vampire-wing .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+/* End Wing */
+
+/* Empower RF */
+
+@media (max-width: 991px) {
+  #hero-empower {
+    text-align: center;
+    background-image: url(../img/empowerrf-banner-mobile.jpg);
+  }
+  #hero-empower .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-empower .hero-img {
+    text-align: center;
+  }
+  #hero-empower .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-empower h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-empower h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-empower .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #hero-empower{
+    background-image: url(../img/empowerrf-banner-mobile-small.jpg);
+  }
+  #hero-empower .hero-img img {
+    width: 80%;
+  }
+  #hero-empower .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+/* End Empower RF */
+
+/* Votiva */
+
+@media (max-width: 991px) {
+  #hero-votiva {
+    text-align: center;
+    background-image: url(../img/votiva-vaginal-mobile.jpg);
+  }
+  #hero-votiva .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-votiva .hero-img {
+    text-align: center;
+  }
+  #hero-votiva .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-votiva h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-votiva h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-votiva .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #hero-votiva{
+    background-image: url(../img/votiva-vaginal-mobile-small.jpg);
+  }
+  #hero-votiva .hero-img img {
+    width: 80%;
+  }
+  #hero-votiva .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+
+/* End Votiva */
+
+
+/* Morpheus */
+
+@media (max-width: 991px) {
+  #hero-morpheus {
+    text-align: center;
+    background-image: url(../img/tampa-skin-tightening-mobile.jpg);
+  }
+  #hero-morpheus .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-morpheus .hero-img {
+    text-align: center;
+  }
+  #hero-morpheus .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-morpheus h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-morpheus h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-morpheus .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #hero-morpheus{
+    background-image: url(../img/tampa-skin-tightening-small-mobile.jpg);
+  }
+  #hero-morpheus .hero-img img {
+    width: 80%;
+  }
+  #hero-morpheus .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+
+/* End Morpheus */
+
+
+
+/* BioTE */
+
+@media (max-width: 991px) {
+  #hero-biote {
+    text-align: center;
+    background-image: url(../img/biote-bg-mobile.jpg);
+  }
+  #hero-biote .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-biote .hero-img {
+    text-align: center;
+  }
+  #hero-biote .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-biote h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-biote h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-biote .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #hero-biote{
+    background-image: url(../img/biote-mobile-small.jpg);
+  }
+  #hero-biote .hero-img img {
+    width: 80%;
+  }
+  #hero-biote .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+
+/* End BioTe */
+
+
+/* Hair Science */
+
+@media (max-width: 991px) {
+  #hero-hair-science {
+    text-align: center;
+    background-image: url(../img/hair-science-mobile.jpg);
+  }
+  #hero-biote .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-hair-science .hero-img {
+    text-align: center;
+  }
+  #hero-hair-science .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-hair-science h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-hair-science h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-hair-science .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #hero-hair-science{
+    background-image: url(../img/hair-science-mobile-small.jpg);
+  }
+  #hero-hair-science .hero-img img {
+    width: 80%;
+  }
+  #hero-hair-science .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+
+/* End Hair Science */
+
+
+
+/* Skin Care */
+
+@media (max-width: 991px) {
+  #hero-skin-care {
+    text-align: center;
+    background-image: url(../img/skin-care-products-mobile.jpg);
+  }
+  #hero-skin-care .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-skin-care .hero-img {
+    text-align: center;
+  }
+  #hero-skin-care .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-skin-care h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-skin-care h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-skin-care .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #hero-skin-care{
+    background-image: url(../img/skin-care-products-small-mobile.jpg);
+  }
+  #hero-skin-care .hero-img img {
+    width: 80%;
+  }
+  #hero-skin-care .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+
+/* End Skin Care */
+
+
+
+
+/* Vampire Facial */
+
+@media (max-width: 991px) {
+  #hero-vampire-facial {
+    text-align: center;
+    background-image: url(../img/vampire-facial-mobile.webp);
+  }
+  #hero-vampire-facial .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-vampire-facial .hero-img {
+    text-align: center;
+  }
+  #hero-vampire-facial .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-vampire-facial h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-vampire-facial h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-vampire-facial .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #hero-vampire-facial{
+    background-image: url(../img/vampire-facial-small.webp);
+  }
+  #hero-vampire-facial .hero-img img {
+    width: 80%;
+  }
+  #hero-vampire-facial .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+
+/* End Vampire Facial */
+
+
+/* Vampire Hair Queries */
+
+@media (max-width: 991px) {
+  #hero-vampire-hair {
+    /*height: 100vh;*/
+    text-align: center;
+    background-image: url(../img/hair-mobile.webp);
+  }
+  #hero-vampire-hair .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-vampire-hair .hero-img {
+    text-align: center;
+  }
+  #hero-vampire-hair .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-vampire-hair h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-vampire-hair h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-vampire-hair .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #hero-vampire-hair{
+    background-image: url(../img/hair-small-mobile.jpg);
+  }
+  #hero-vampire-hair .hero-img img {
+    width: 80%;
+  }
+  #hero-vampire-hair .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+
+/* End Vampire Hair Queries */
+
+
+
+/* Contact Sexual Wellness */
+/* @media (max-width: 991px) {
+  .contact-sexual-wellness {
+    background-color: #000;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-sexual-wellness {
+    background-image: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .contact-sexual-wellness {
+    background-image: none;
+  }
+} */
