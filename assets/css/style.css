@@ -3307,6 +3307,24 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
   }
 }
 
+
+@media (max-width: 768px) {
+  #addiction-badge-home-page{
+    max-width:70%;
+    margin:auto;
+  }
+}
+@media (max-width: 575px) {
+  #addiction-badge-home-page{
+    max-width:70%;
+    margin:auto;
+  }
+}
+
+
+
+
+
 /* End Vampire Hair Queries */
 
 
