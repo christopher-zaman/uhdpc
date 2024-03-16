@@ -577,6 +577,9 @@ h1, h2, h3, h4, h5, h6 {
 .my-width-30{
   width:30%;
 }
+.m-width-30 {
+  max-width:30%;
+}
 .white-transparent-bg{
   background-color: rgba(255,255,255,0.7);
 }
@@ -629,17 +632,30 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero-votiva {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   /* background: url("../img/votiva-vaginal-bg.jpeg"); */
-  background: url("../img/votiva-vaginal-bg.webp");
+  /* background: url("../img/votiva-vaginal-bg.webp"); */
+  background: url("../img/votiva-vaginal-forma-v.webp");
   background-repeat: no-repeat;
   background-size:cover;
 }
 
+.before-after-pics {
+  border-radius: 5px;
+}
+.position-before-next-to-after {
+  float: left;
+  margin: auto;
+  max-width: 50%;
+}
+.blur {
+  filter: blur(6px); /* Adjust the pixel value as needed */
+}
+
 #hero-morpheus {
   width: 100%;
-  height: 80vh;
-  background: url("../img/tampa-skin-tightening.webp");
+  height: 100vh;
+  background: url("../img/morpheus-8-original.webp");
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -1430,6 +1446,11 @@ section {
   max-width: 70%;
   margin:auto;
 }
+.forma-v-text {
+  color: #37517e;
+  background-color:rgba(255, 255, 255, 0.6);
+  max-width: 30%;
+}
 .banner-text {
   color: #37517e;
   background-color:rgba(255, 255, 255, 0.6);
@@ -1659,29 +1680,32 @@ section {
   color:#fff;
 }
 .o-shot-card-image {
-  background-image: url("../../images/o-shot-beach.webp");
+  background-image: url("../../images/official-o-shot-logo-no-bg.png");
+  background-color:#fff;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin: auto;
   width: 100%;
-  height: 50vh;
+  height: 20vh;
 }
 
 .p-shot-card-image {
-  background-image: url("../../images/p-shot-thumbnail.webp");
+  background-image: url("../../images/official-p-shot-logo-no-bg.png");
+  background-color:#fff;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin: auto;
   width: 100%;
-  height: 50vh;
+  height: 20vh;
 }
 .duo-card-image {
-  background-image: url("../../images/duo-thumbnail.webp");
+  background-image: url("../../images/duo-logo-horizontal.png");
+  background-color:#fff;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin: auto;
-  width: 100%;
-  height: 50vh;
+  max-width: 100%;
+  height: 20vh;
 }
 .portfolio #portfolio-flters {
   list-style: none;
@@ -2930,7 +2954,8 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
   #hero-votiva {
     text-align: center;
     /* background-image: url(../img/votiva-vaginal-mobile.jpg); */
-    background-image: url(../img/votiva-vaginal-mobile.webp);
+    /* background-image: url(../img/votiva-vaginal-mobile.webp); */
+    background-image: url(../img/votiva-vaginal-forma-v-mobile.webp);
   }
   #hero-votiva .animated {
     -webkit-animation: none;
@@ -2963,7 +2988,8 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 
   #hero-votiva{
     /* background-image: url(../img/votiva-vaginal-mobile-small.jpg); */
-    background-image: url(../img/votiva-vaginal-mobile-small.webp);
+    /* background-image: url(../img/votiva-vaginal-mobile-small.webp); */
+    background-image: url(../img/votiva-vaginal-forma-v-mobile-small.webp);
   }
   #hero-votiva .hero-img img {
     width: 80%;
@@ -2985,7 +3011,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 991px) {
   #hero-morpheus {
     text-align: center;
-    background-image: url(../img/tampa-skin-tightening-mobile.webp);
+    background-image: url(../img/morpheus-8-mobile.webp);
   }
   #hero-morpheus .animated {
     -webkit-animation: none;
@@ -3017,7 +3043,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 575px) {
 
   #hero-morpheus{
-    background-image: url(../img/tampa-skin-tightening-small-mobile.webp);
+    background-image: url(../img/morpheus-8-small-moble.webp);
   }
   #hero-morpheus .hero-img img {
     width: 80%;
