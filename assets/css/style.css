@@ -580,6 +580,9 @@ h1, h2, h3, h4, h5, h6 {
 .m-width-30 {
   max-width:30%;
 }
+.m-width-12 {
+  max-width:12%;
+}
 .white-transparent-bg{
   background-color: rgba(255,255,255,0.7);
 }
@@ -624,8 +627,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Empower RF */
 #hero-empower {
   width: 100%;
-  height: 80vh;
-  background: url("../img/empowerrf-banner.webp");
+  height: 100vh;
+  background: url("../img/vtone-empower-rf.webp");
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -1437,7 +1440,7 @@ section {
 .empower-rf-banner-bg {
   width: 100%;
   height: 80vh;
-  background: url("../../images/empowerrf-banner.jpg") fixed center center;
+  background: url("../img/vtone-empower-rf.webp") fixed center center;
   background-size: cover;
 }
 .empower-text{
@@ -2901,7 +2904,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 991px) {
   #hero-empower {
     text-align: center;
-    background-image: url(../img/empowerrf-banner-redo.webp);
+    background-image: url(../img/vtone-empower-rf-mobile.webp);
   }
   #hero-empower .animated {
     -webkit-animation: none;
@@ -2933,7 +2936,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 575px) {
 
   #hero-empower{
-    background-image: url(../img/empowerrf-banner-redo-small.webp);
+    background-image: url(../img/vtone-empower-rf-small.webp);
   }
   #hero-empower .hero-img img {
     width: 80%;
