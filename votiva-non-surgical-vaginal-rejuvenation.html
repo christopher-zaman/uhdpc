@@ -273,28 +273,9 @@
                       </div>
                 </div>
 
-                <!-- JavaScript controls for viewing nudity -->
+                <!-- JavaScript controls for viewing X Pictures -->
                 <script>
-                  document.addEventListener("DOMContentLoaded", function() {
-                    var yesButtons = document.querySelectorAll('.btn-over-18');
-                    var noButtons = document.querySelectorAll('.btn-under-18');
-                    
-                    yesButtons.forEach(function(button) {
-                      button.addEventListener('click', function() {
-                        var card = this.closest('.card');
-                        card.classList.remove('blurred');
-                        card.style.filter = 'none'; // Remove the blur
-                        card.querySelector('.age-verification').style.display = 'none'; // Hide buttons
-                      });
-                    });
-                    
-                    noButtons.forEach(function(button) {
-                      button.addEventListener('click', function() {
-                        alert("You are not old enough to view this content.");
-                        // Optionally redirect them away or hide the content further
-                      });
-                    });
-                  });
+                  
 
 
                 </script>
