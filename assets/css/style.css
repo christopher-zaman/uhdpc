@@ -106,6 +106,17 @@ a:hover {
   backdrop-filter: blur(5px);
   --bs-secondary-rgb: transparent;
 }
+.bio-te-card {
+    color: #fff;
+    border: none;
+    /* box-shadow: inset 1px 1px rgba(255, 255, 255, 0.2), inset -1px -1px rgba(255, 255, 255, 0.1), 1px 3px 24px -1px rgba(0, 0, 0, 0.15); */
+    /* background-color: transparent;
+    background-image: linear-gradient(125deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2) 70%);
+    -webkit-backdrop-filter: blur(5px); */
+    /* backdrop-filter: blur(5px); */
+    --bs-secondary-rgb: transparent;
+}
+
 .card-margin-btm-5px {
   margin: 0px 0px 5px 0px;
 }
@@ -580,6 +591,9 @@ h1, h2, h3, h4, h5, h6 {
 .m-width-30 {
   max-width:30%;
 }
+.bio-te-logo{
+  display: flex;
+}
 .m-width-12 {
   max-width:12%;
 }
@@ -666,21 +680,22 @@ h1, h2, h3, h4, h5, h6 {
 #hero-biote {
   width: 100%;
   height: 80vh;
-  background: url("../img/biote-bg-banner-redo.webp");
+  background: url("../img/bio-te-banner.webp");
   background-repeat: no-repeat;
   background-size:cover;
 }
 #hero-hair-science {
   width: 100%;
   height: 80vh;
-  background: url("../img/hair-science-bg-banner.webp");
+  background: url("../img/formula-82-s-banner.webp");
   background-repeat: no-repeat;
+  margin-top: 4rem;
   background-size:cover;
 }
 #hero-skin-care{
   width: 100%;
   height: 80vh;
-  background: url("../img/skin-care-products.webp");
+  background: url("../img/alastin-banner.webp");
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -3069,7 +3084,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 991px) {
   #hero-biote {
     text-align: center;
-    background-image: url(../img/biote-bg-mobile.webp);
+    background-image: url(../img/bio-te-banner-mobile.webp);
   }
   #hero-biote .animated {
     -webkit-animation: none;
@@ -3102,7 +3117,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 575px) {
 
   #hero-biote{
-    background-image: url(../img/biote-bg-banner-redo-small.webp);
+    background-image: url(../img/bio-te-banner-mobile-small.webp);
   }
   #hero-biote .hero-img img {
     width: 80%;
@@ -3124,7 +3139,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 991px) {
   #hero-hair-science {
     text-align: center;
-    background-image: url(../img/hair-science-mobile.webp);
+    background-image: url(../img/formula-82-s-banner-mobile.webp);
   }
   #hero-biote .animated {
     -webkit-animation: none;
@@ -3156,7 +3171,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 575px) {
 
   #hero-hair-science{
-    background-image: url(../img/hair-science-mobile-small.webp);
+    background-image: url(../img/formula-82-s-banner-small.webp);
   }
   #hero-hair-science .hero-img img {
     width: 80%;
@@ -3179,7 +3194,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 991px) {
   #hero-skin-care {
     text-align: center;
-    background-image: url(../img/skin-care-products-mobile.webp);
+    background-image: url(../img/alastin-banner-mobile.webp);
   }
   #hero-skin-care .animated {
     -webkit-animation: none;
@@ -3211,7 +3226,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 575px) {
 
   #hero-skin-care{
-    background-image: url(../img/skin-care-products-small-mobile.jpg);
+    background-image: url(../img/alastin-banner-small.webp);
   }
   #hero-skin-care .hero-img img {
     width: 80%;
