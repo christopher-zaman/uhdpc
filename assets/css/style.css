@@ -627,7 +627,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero-vampire-hair {
   width: 100%;
   height: 80vh;
-  background-image: url(../img/hair.webp);
+  background-image: url(../img/vampire-hair-restoration.jpg);
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -3251,7 +3251,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 991px) {
   #hero-vampire-facial {
     text-align: center;
-    background-image: url(../img/vampire-facial-mobile.webp);
+    background-image: url(../img/vampire-facial-banner-medium.webp);
   }
   #hero-vampire-facial .animated {
     -webkit-animation: none;
@@ -3283,7 +3283,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 575px) {
 
   #hero-vampire-facial{
-    background-image: url(../img/vampire-facial-small.webp);
+    background-image: url(../img/vampire-facial-banner-small.webp);
   }
   #hero-vampire-facial .hero-img img {
     width: 80%;
@@ -3306,7 +3306,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
   #hero-vampire-hair {
     /*height: 100vh;*/
     text-align: center;
-    background-image: url(../img/hair-mobile.webp);
+    background-image: url(../img/vampire-hair-restoration-medium.webp);
   }
   #hero-vampire-hair .animated {
     -webkit-animation: none;
@@ -3338,7 +3338,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 575px) {
 
   #hero-vampire-hair{
-    background-image: url(../img/hair-small-mobile.webp);
+    background-image: url(../img/vampire-hair-restoration-small.webp);
   }
   #hero-vampire-hair .hero-img img {
     width: 80%;
