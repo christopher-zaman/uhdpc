@@ -333,6 +333,15 @@ h1, h2, h3, h4, h5, h6 {
       padding: 19px 10px 20px 10px !important;
       box-shadow: none !important;
 }
+
+.soft-bg-easy{
+  background-color: #fff5ee;
+  color: #000;
+  font-size: 21px;
+}
+.font-21-px{
+  font-size: 21px;
+}
 .quartz-theme {
       border: none;
       box-shadow:none !important;
@@ -569,6 +578,70 @@ h1, h2, h3, h4, h5, h6 {
   /* display: block; */
   padding: 0 0 0 0;
 }
+
+/* Google Font Lato --------------------------------------------------------------
+*/
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -620,7 +693,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero-vampire-breast {
   width: 100%;
   height: 80vh;
-  background-image: url(../img/vampire-breast-left-bg-banner.webp);
+  background-image: url(../img/vampire-breast-lift-banner.jpg);
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -634,9 +707,13 @@ h1, h2, h3, h4, h5, h6 {
 #hero-vampire-wing {
   width: 100%;
   height: 80vh;
-  background-image: url(../img/vampire-wing-lift-bg-banner.webp);
+  background-image: url(../img/vampire-wing-lift-banner.jpg);
   background-repeat: no-repeat;
   background-size:cover;
+}
+
+.vampire-font {
+  font-style: italic;
 }
 /* Empower RF */
 #hero-empower {
@@ -2868,7 +2945,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 991px) {
   #hero-vampire-wing {
     text-align: center;
-    background-image: url(../img/vampire-wing-lift-mobile.webp);
+    background-image: url(../img/vampire-wing-lift-banner-mobile.webp);
   }
   #hero-vampire-wing .animated {
     -webkit-animation: none;
@@ -2900,7 +2977,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 575px) {
 
   #hero-vampire-wing{
-    background-image: url(../img/vampire-wing-mobile-small.webp);
+    background-image: url(../img/vampire-wing-lift-banner-small.webp);
   }
   #hero-vampire-wing .hero-img img {
     width: 80%;
@@ -3173,6 +3250,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 
   #hero-hair-science{
     background-image: url(../img/formula-82-s-small-logo.webp);
+    height:50vh;
   }
   #hero-hair-science .hero-img img {
     width: 80%;
