@@ -2892,7 +2892,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
   #hero-vampire-breast {
     /*height: 100vh;*/
     text-align: center;
-    background-image: url(../img/vampire-breast-mobile.webp);
+    background-image: url(../img/vampire-breast-lift-banner-medium.webp);
   }
   #hero-vampire-breast .animated {
     -webkit-animation: none;
@@ -2924,7 +2924,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 @media (max-width: 575px) {
 
   #hero-vampire-breast{
-    background-image: url(../img/vampire-breast-mobile-small.webp);
+    background-image: url(../img/vampire-breast-lift-banner-small.webp);
   }
   #hero-vampire-breast .hero-img img {
     width: 80%;
@@ -2978,6 +2978,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 
   #hero-vampire-wing{
     background-image: url(../img/vampire-wing-lift-banner-small.webp);
+    margin-bottom: -50px;
   }
   #hero-vampire-wing .hero-img img {
     width: 80%;
@@ -3362,6 +3363,7 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 
   #hero-vampire-facial{
     background-image: url(../img/vampire-facial-banner-small.webp);
+    height: 55vh;
   }
   #hero-vampire-facial .hero-img img {
     width: 80%;
