@@ -238,29 +238,23 @@
       <div class="col-md-12">
         <div class="text-white text-left ">
           <h2 class="font-3rem">Before & After Morpheus8</h2>
-          <img src="assets/img/morpheus8-before-after.jpg" class="img-fluid" alt="Before and After Morpheus8">
+          <img src="assets/img/morpheus8-before-after.webp" style="width: 100%; height:auto;" class="img-fluid" alt="Before and After Morpheus8">
 
           <h2 class="font-3rem">Single Treatment Results Morpheus8</h2>
-          <img src="assets/img/morpheus8-before-after-single.jpg" class="img-fluid" alt="Before and After Morpheus8 Single Treatment">
+          <img src="assets/img/morpheus8-before-after-single.webp" style="width: 100%; height:auto;" class="img-fluid" alt="Before and After Morpheus8 Single Treatment">
 
           <h2 class="font-3rem">Leg Transformation Morpheus8</h2>
-          <img src="assets/img/morpheus8-before-after-legs.jpg" class="img-fluid" alt="Before and After Morpheus8 Leg Treatment">
+          <img src="assets/img/morpheus8-before-after-legs.webp" style="width: 100%; height:auto;" class="img-fluid" alt="Before and After Morpheus8 Leg Treatment">
 
           <h2 class="font-3rem">Med Spa Morpheus8</h2>
-          <img src="assets/img/morpheus8-before-after-med-spa.png" class="img-fluid" alt="Med Spa Morpheus8 Leg Treatment">
+          <img src="assets/img/morpheus8-before-after-med-spa.webp" style="width: 100%; height:auto;" class="img-fluid" alt="Med Spa Morpheus8 Leg Treatment">
 
           <!-- <p class="font-size-x-large"> </p> -->
       </div>
       </div>
 
-
-
-
-
-
       <!-- New Row for Additonal Updates with Before and Afer pictures of Morpheus 8 treatments -->
-
-          
+  
             <!-- 9 Columns for content  -->
             <div class="col-md-9">
                 <div class="portfolio-info sexual-wellness-quartz-theme">
@@ -461,8 +455,8 @@
             <meta property="og:video" content="https://www.youtube.com/embed/P9Jxk1imMnc" />
             <h3>Follow Us</h3>
             <div class="social-links mt-3">
-              <a href="https://www.instagram.com/ultimatehealthdpc" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/amanda-neil-msn-aprn-2b2238202" class="linkedin"><i
+              <a href="https://www.instagram.com/ultimatehealthdpc" aria-label="Instagram" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/amanda-neil-msn-aprn-2b2238202" aria-label="LinkedIn" class="linkedin"><i
                   class="bx bxl-linkedin"></i></a>
             </div>     
           </div>
@@ -491,9 +485,13 @@
       </div>
     </div>
 
+    <!-- Avoid using document.write for page speed -->
+    <!-- <script>document.write(new Date().getFullYear());</script> -->
     <div class="container footer-bottom clearfix">
-      <div class="copyright">
-        &copy; Copyright <script>document.write(new Date().getFullYear());</script><strong><span> Ultimate Health Direct Primary Care LLC</span></strong>. All Rights Reserved
+      <div class="copyright">&copy; Copyright <span id="current-year"></span><strong><span> Ultimate Health Direct Primary Care LLC</span></strong>. All Rights Reserved
+        <script>
+          document.getElementById('current-year').textContent = new Date().getFullYear();
+        </script>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
