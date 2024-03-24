@@ -1464,7 +1464,7 @@ section {
   color: #000000;
 }
 .o-shot-bg{
-  background: linear-gradient(rgba(40, 58, 90, 0.4), rgba(40, 58, 90, 0.4)), url("../../images/o-shot.jpg") fixed center center;
+  background: linear-gradient(rgba(40, 58, 90, 0.4), rgba(40, 58, 90, 0.4)), url("../../images/o-shot.webp") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
