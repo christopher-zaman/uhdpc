@@ -219,7 +219,7 @@
      <div class="row">
        <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
         <!-- <h1 class="morpheus-text">Vampire Facial</h1> -->
-        <img src="assets/img/vampire-facial-logo-remove-bg.webp" class="m-width-30" alt="Vampire Facial">
+        <img src="assets/img/vampire-facial-logo-remove-bg.webp" class="m-width-30" style="width: 100%; height:auto;" alt="Vampire Facial">
        </div>
    </div>
 
@@ -245,7 +245,7 @@
 
             <!-- Card with an image overlay -->
             <div class="card">
-                <img src="images/side-card-image.jpg" class="card-img-top side-card-image" alt="Amanda Ultimate Health Direct Primary Care">
+                <img src="images/side-card-image.webp" class="card-img-top side-card-image" alt="Amanda Ultimate Health Direct Primary Care">
                 <div class="card-img-overlay d-flex align-items-end">
                     <h5 class="card-title">Amanda is a National Board-Certified Nurse Practitioner.</h5>
                 </div>
@@ -287,7 +287,7 @@
             <div class="col-md-3">
                 <!-- Card with an image overlay -->
             <div class="card">
-                <img src="assets/img/vampire-facial-logo-remove-bg.webp" class="card-img-top side-card-image" alt="Vampire Facial">
+                <img src="assets/img/vampire-facial-logo-remove-bg.webp" class="card-img-top side-card-image" style="width: 100%; height:auto;" alt="Vampire Facial">
                 <div class="card-img-overlay d-flex align-items-end">
                     <!-- <h5 class="card-title">Vampire Facial</h5> -->
                 </div>
@@ -512,9 +512,13 @@
       </div>
     </div>
 
+    <!-- Avoid using document.write for page speed -->
+    <!-- <script>document.write(new Date().getFullYear());</script> -->
     <div class="container footer-bottom clearfix">
-      <div class="copyright">
-        &copy; Copyright <script>document.write(new Date().getFullYear());</script><strong><span> Ultimate Health Direct Primary Care LLC</span></strong>. All Rights Reserved
+      <div class="copyright">&copy; Copyright <span id="current-year"></span><strong><span> Ultimate Health Direct Primary Care LLC</span></strong>. All Rights Reserved
+        <script>
+          document.getElementById('current-year').textContent = new Date().getFullYear();
+        </script>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
