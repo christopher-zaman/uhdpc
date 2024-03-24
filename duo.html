@@ -197,7 +197,7 @@
     <div class="container">
        <div class="row">
          <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
-          <img src="images/duo-logo-horizontal.png" class="m-width-30" alt="Duo in Leesburg, Florida">
+          <img src="images/duo-logo-horizontal.webp" class="m-width-30" style="width: 100%; height: auto; alt="Duo in Leesburg, Florida">
          </div>
      </div>
  
@@ -216,7 +216,7 @@
           <!-- Column for Video -->
           <div class="col-md-3">
               <div class="video-o-shot">
-                <video class="video-floating-effect video-responsive" controls preload="auto" poster="assets/img/ed-thumbnail.png">
+                <video class="video-floating-effect video-responsive" controls preload="auto" poster="assets/img/ed-thumbnail.webp">
                   <source src="videos/what-is-ed.mp4" type="video/mp4">
                   <source src="videos/what-is-ed.mov" type="video/mov">
                   Your browser does not support the video tag.
@@ -228,8 +228,7 @@
               <div class="portfolio-info sexual-wellness-quartz-theme">
                 <div class="">
                   <h5 class="card-title-sexual-wellness">Introducing the DUO Treatment</h5>
-                  <p class="card-text-sexual-wellness"><img src="images/duo-sweet-spot.png" class="m-width-30 text-right">DUO represents the forefront of "His and Hers" treatments, utilizing Alma Lasers' state-of-the-art shock wave technology. This non-invasive procedure uses low-intensity extracorporeal shock wave therapy (LI-ESWT) to increase blood flow to sexual organs, thereby enhancing function and reversing the effects of aging on vascular health. DUO treatments are designed to significantly improve sexual satisfaction for both genders.
-                    
+                  <p class="card-text-sexual-wellness"><img src="images/duo-sweet-spot.webp" class="m-width-30 text-right" style="width: 100%; height:auto;" alt="Alma Duo in Leesburg Florida">DUO represents the forefront of "His and Hers" treatments, utilizing Alma Lasers' state-of-the-art shock wave technology. This non-invasive procedure uses low-intensity extracorporeal shock wave therapy (LI-ESWT) to increase blood flow to sexual organs, thereby enhancing function and reversing the effects of aging on vascular health. DUO treatments are designed to significantly improve sexual satisfaction for both genders.  
                   </p>
                   
                   <h5 class="card-title-sexual-wellness">Who Benefits from DUO?</h5>
@@ -257,7 +256,7 @@
             <div class="portfolio-info sexual-wellness-quartz-theme">
               <div class="">
                 <div class="video-o-shot">
-                  <video class="video-floating-effect video-responsive" controls preload="auto" poster="assets/img/duo-video-thumbnail.png">
+                  <video class="video-floating-effect video-responsive" controls preload="auto" poster="assets/img/duo-video-thumbnail.webp">
                     <source src="videos/alma-duo-video.mp4" type="video/mp4">
                     <source src="videos/alma-duo-video.mov" type="video/mov">
                     Your browser does not support the video tag.
@@ -476,7 +475,7 @@
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h3>Location</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6991.348217773319!2d-81.876619!3d28.818784!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x61f30c383d9291d!2sUltimate%20Health%20Direct%20Primary%20Care%20LLC!5e0!3m2!1sen!2sus!4v1639607329640!5m2!1sen!2sus" width="90%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6991.348217773319!2d-81.876619!3d28.818784!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x61f30c383d9291d!2sUltimate%20Health%20Direct%20Primary%20Care%20LLC!5e0!3m2!1sen!2sus!4v1639607329640!5m2!1sen!2sus" title="Ultimate Health Direct Primary Care Office Location" width="90%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
           </div>
 
@@ -506,8 +505,8 @@
             <meta property="og:video" content="https://www.youtube.com/embed/P9Jxk1imMnc" />
             <h3>Follow Us</h3>
             <div class="social-links mt-3">
-              <a href="https://www.instagram.com/ultimatehealthdpc" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/amanda-neil-msn-aprn-2b2238202" class="linkedin"><i
+              <a href="https://www.instagram.com/ultimatehealthdpc" aria-label="Instagram" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/amanda-neil-msn-aprn-2b2238202" aria-label="LinkedIn" class="linkedin"><i
                   class="bx bxl-linkedin"></i></a>
             </div>     
           </div>
@@ -536,9 +535,13 @@
       </div>
     </div>
 
+    <!-- Avoid using document.write for page speed -->
+    <!-- <script>document.write(new Date().getFullYear());</script> -->
     <div class="container footer-bottom clearfix">
-      <div class="copyright">
-        &copy; Copyright <script>document.write(new Date().getFullYear());</script><strong><span> Ultimate Health Direct Primary Care LLC</span></strong>. All Rights Reserved
+      <div class="copyright">&copy; Copyright <span id="current-year"></span><strong><span> Ultimate Health Direct Primary Care LLC</span></strong>. All Rights Reserved
+        <script>
+          document.getElementById('current-year').textContent = new Date().getFullYear();
+        </script>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
