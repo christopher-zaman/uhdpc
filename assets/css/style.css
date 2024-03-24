@@ -1780,7 +1780,7 @@ section {
   color:#fff;
 }
 .o-shot-card-image {
-  background-image: url("../../images/official-o-shot-logo-no-bg.png");
+  background-image: url("../../images/official-o-shot-logo-no-bg.webp");
   background-color:#fff;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1790,7 +1790,7 @@ section {
 }
 
 .p-shot-card-image {
-  background-image: url("../../images/official-p-shot-logo-no-bg.png");
+  background-image: url("../../images/official-p-shot-logo-no-bg.webp");
   background-color:#fff;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1799,7 +1799,7 @@ section {
   height: 20vh;
 }
 .duo-card-image {
-  background-image: url("../../images/duo-logo-horizontal.png");
+  background-image: url("../../images/duo-logo-horizontal.webp");
   background-color:#fff;
   background-repeat: no-repeat;
   background-size: contain;
