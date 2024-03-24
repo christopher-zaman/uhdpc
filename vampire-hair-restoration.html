@@ -226,7 +226,7 @@
 
             <!-- Card with an image overlay -->
             <div class="video-o-shot">
-              <video class="video-floating-effect video-responsive" controls preload="auto" poster="assets/img/hair-thumbnail.png">
+              <video class="video-floating-effect video-responsive" controls preload="auto" style="width: 100%; height:auto;" poster="assets/img/hair-thumbnail.webp">
                 <source src="videos/prp-hair.mov" type="video/mov">
                 <source src="videos/prp-hair.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -256,7 +256,7 @@
             <div class="col-md-3">
                 <!-- Card with an image overlay -->
             <div class="card">
-                <img src="assets/img/vampire-hair-restoration-side-logo.webp" class="card-img-top side-card-image" alt="Hair Restoration">
+                <img src="assets/img/vampire-hair-restoration-side-logo.webp" class="card-img-top side-card-image" style="width: 100%; height:auto;" alt="Hair Restoration">
                 <div class="card-img-overlay d-flex align-items-end">
                     <!-- <h5 class="card-title">Hair Restoration.</h5> -->
                 </div>
@@ -481,9 +481,13 @@
       </div>
     </div>
 
+    <!-- Avoid using document.write for page speed -->
+    <!-- <script>document.write(new Date().getFullYear());</script> -->
     <div class="container footer-bottom clearfix">
-      <div class="copyright">
-        &copy; Copyright <script>document.write(new Date().getFullYear());</script><strong><span> Ultimate Health Direct Primary Care LLC</span></strong>. All Rights Reserved
+      <div class="copyright">&copy; Copyright <span id="current-year"></span><strong><span> Ultimate Health Direct Primary Care LLC</span></strong>. All Rights Reserved
+        <script>
+          document.getElementById('current-year').textContent = new Date().getFullYear();
+        </script>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
