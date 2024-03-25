@@ -339,8 +339,18 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-size: 21px;
 }
+.my-beige-bg{
+  background-color: #fff5ee;
+  color: #000;
+}
+.f-weight-300{
+  font-weight:300;
+}
 .font-21-px{
   font-size: 21px;
+}
+.title-blue {
+  color: #012970;
 }
 .quartz-theme {
       border: none;
@@ -372,7 +382,9 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 90%;
   float: left;
 }
-
+.space-the-ol-li{
+  margin: 10px 0px;
+}
 
 .w-10 {
   max-width: 10%;
