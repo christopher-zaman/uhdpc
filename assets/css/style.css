@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #e6f1f6;
 }
 .employee-membership-text{
-  text-align: justify;
+  /* text-align: justify; */
   font-size: larger;
 }
 .font-size-larger{
