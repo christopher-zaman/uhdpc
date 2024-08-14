@@ -35,7 +35,12 @@ a:hover {
   max-width: 100%;
   margin: auto;
 }
-
+.text-left-important {
+  text-align: left;
+}
+.bg-white{
+  background-color: #fff !important;
+}
 .card-header-sexual-wellness,
 .card-footer-sexual-wellness {
   border-color: #ebeef4;
