@@ -742,6 +742,14 @@ h1, h2, h3, h4, h5, h6 {
   background-size:contain;
 }
 
+#hero-dermal-filler {
+  width: 100%;
+  height: 51vh;
+  background-image: url(../img/face.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #breast-text {
   display: none;
 }
@@ -3006,6 +3014,124 @@ box-shadow: 0px 0 30px rgb(255 255 255,88%);
 }
 /* End Breast */
 
+/* Lip Filler */
+@media (max-width: 991px) {
+  #hero-lip-filler {
+    height: 60vh;
+    margin-top: -31px;
+    text-align: center;
+    background-image: url(../img/lips-medium.webp);
+    background-size: cover;
+  }
+  #hero-lip-filler .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-lip-filler .hero-img {
+    text-align: center;
+  }
+  #hero-lip-filler .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-lip-filler h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-lip-filler h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-lip-filler .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #breast-text{
+    display: block;
+  }
+
+  #hero-lip-filler{
+    background-image: url(../img/lips-small.webp);
+
+  }
+  #hero-lip-filler .hero-img img {
+    width: 80%;
+  }
+  #hero-lip-filler .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+/* Lip Filler */
+
+/* dermal Filler */
+@media (max-width: 991px) {
+  #hero-dermal-filler{
+    height: 60vh;
+    margin-top: -31px;
+    text-align: center;
+    background-image: url(../img/face-medium.webp);
+    background-size: cover;
+  }
+  #hero-dermal-filler .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero-dermal-filler .hero-img {
+    text-align: center;
+  }
+  #hero-dermal-filler .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-dermal-filler h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero-dermal-filler h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero-dermal-filler .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+  
+  #breast-text{
+    display: block;
+  }
+
+  #hero-dermal-filler{
+    background-image: url(../img/face-small.webp);
+
+  }
+  #hero-dermal-filler .hero-img img {
+    width: 80%;
+  }
+  #hero-dermal-filler .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  .no-insurance-banner{
+    margin-top:25px;
+  }
+}
+
+/* dermal Filler */
 
 /* Wing */
 
